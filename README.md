@@ -53,9 +53,14 @@ npm install
 3. Set up your environment variables
 Create a .env file in the root directory and configure it (templated included inside project env.template).
 
-4. Initialize Prisma
+4. Initialize Firebase Cli
 ```bash
-npx prisma generate
+npm install -g firebase-tools
+```
+
+5. Install Firebase
+```bash
+firebase init
 ```
 
 ## Running the Application
